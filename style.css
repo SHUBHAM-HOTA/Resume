@@ -109,3 +109,129 @@ body {
 .highlight {
   color: #105dcf;
 }
+
+/* main */
+
+#content section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
+section:nth-child(2n) {
+  background-color: rgb(236, 225, 225);
+}
+
+#skill-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: #2857a4;
+  padding: 1rem;
+  margin: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-heading > div {
+  padding: 0.5rem;
+}
+.section-contents {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.outer-div-skills {
+  height: 1.4;
+  width: 9rem;
+  background-color: lightgrey;
+
+  margin: 1.5rem 0.4rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 0px 5px 1px rgb(82, 80, 80);
+}
+
+.inner-div-skills {
+  height: inherit;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.inner-div-skills span {
+  padding: 10px;
+}
+
+#python {
+  width: 65%;
+  background-color: #2857a4;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
+
+#html {
+  width: 65%;
+  background-color: #ec4d1c;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
+
+#css {
+  width: 65%;
+  background-color: #93738c;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
+
+#javascript {
+  width: 65%;
+  background-color: #0b8176;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
+
+#nodejs {
+  width: 65%;
+  background-color: cornflowerblue;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
+
+#mongodb {
+  width: 65%;
+  background-color: cornflowerblue;
+  height: inherit;
+  padding: 4px;
+  box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
+}
