@@ -131,7 +131,7 @@ section:nth-child(2n + 1) {
 }
 
 section:nth-child(2n) {
-  background-color: rgb(236, 225, 225);
+  background-color: #efefef;
 }
 
 #skill-container {
@@ -171,11 +171,10 @@ section:nth-child(2n) {
 }
 
 .outer-div-skills {
-  height: 1.4;
-  width: 9rem;
+  width: 11rem;
   background-color: lightgrey;
 
-  margin: 1.5rem 0.4rem;
+  margin: 2rem 1rem;
   border-radius: 1.5rem;
   box-shadow: 2px 0px 5px 1px rgb(82, 80, 80);
 }
@@ -188,10 +187,11 @@ section:nth-child(2n) {
 
 .inner-div-skills span {
   padding: 10px;
+  color: white;
 }
 
 #python {
-  width: 65%;
+  width: 70%;
   background-color: #2857a4;
   height: inherit;
   padding: 4px;
@@ -199,7 +199,7 @@ section:nth-child(2n) {
 }
 
 #html {
-  width: 65%;
+  width: 80%;
   background-color: #ec4d1c;
   height: inherit;
   padding: 4px;
@@ -207,7 +207,7 @@ section:nth-child(2n) {
 }
 
 #css {
-  width: 65%;
+  width: 70%;
   background-color: #93738c;
   height: inherit;
   padding: 4px;
@@ -215,7 +215,7 @@ section:nth-child(2n) {
 }
 
 #javascript {
-  width: 65%;
+  width: 70%;
   background-color: #0b8176;
   height: inherit;
   padding: 4px;
@@ -223,7 +223,7 @@ section:nth-child(2n) {
 }
 
 #nodejs {
-  width: 65%;
+  width: 60%;
   background-color: cornflowerblue;
   height: inherit;
   padding: 4px;
@@ -232,7 +232,7 @@ section:nth-child(2n) {
 
 #mongodb {
   width: 65%;
-  background-color: cornflowerblue;
+  background-color: #13aa52;
   height: inherit;
   padding: 4px;
   box-shadow: 3px 1px 6px 0px rgb(82, 80, 80);
