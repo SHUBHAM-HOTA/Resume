@@ -158,6 +158,8 @@ section:nth-child(2n) {
 .section-heading > div {
   padding: 0.5rem;
 }
+
+/* skills */
 .section-contents {
   width: auto;
   height: auto;
