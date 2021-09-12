@@ -333,3 +333,74 @@ textarea {
 #footer-menu {
   margin-bottom: 4rem;
 }
+
+/* work container */
+
+#work-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+#work-details {
+  border: 2px solid black;
+  width: 80%;
+  position: relative;
+}
+
+.work-box {
+  width: 40%;
+  border: 1px solid red;
+  margin: 0.4rem;
+  min-height: 150px;
+  position: relative;
+  margin-top: 4%;
+}
+
+.work-box:nth-child(2n + 1) {
+  left: 5%;
+}
+
+.work-box:nth-child(2n) {
+  left: 52%;
+}
+
+.travler-line {
+  border: 1px dashed rgb(168, 167, 167);
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 0px;
+  height: 65%;
+}
+
+.travler {
+  position: sticky;
+  top: 38%;
+  font-size: 2rem;
+  color: #2857a4;
+  transform: rotate(90deg);
+}
+
+.work-box:nth-child(2n + 1):after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: -12%;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: rgb(168, 167, 167);
+}
+
+.work-box:nth-child(2n):after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: -8%;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: rgb(168, 167, 167);
+}
