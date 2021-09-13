@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   margin-top: -20px;
+  overflow-x: hidden;
 }
 
 #page-header {
@@ -336,22 +337,20 @@ textarea {
 
 /* work container */
 
-#work-container {
+.work-edu-container {
   display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
 }
 
-#work-details {
-  border: 2px solid black;
+.work-edu-details {
   width: 80%;
   position: relative;
 }
 
 .work-box {
   width: 40%;
-  border: 1px solid red;
   margin: 0.4rem;
   min-height: 150px;
   position: relative;
@@ -414,5 +413,26 @@ textarea {
 
 .logo-of-work h4 {
   display: inline-block;
-  margin-top: -20%;
+  position: absolute;
+  top: -10%;
+  right: 5%;
+  color: #2857a4;
+  font-size: 1.2rem;
+}
+
+.logo-of-work h5 {
+  display: inline-block;
+  position: absolute;
+  top: 0%;
+  right: 5%;
+  color: #df903c;
+  font-size: 1.2rem;
+}
+
+.work-para {
+  margin: 0px 10px;
+  color: grey;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04rem;
 }
