@@ -387,7 +387,7 @@ textarea {
   content: "";
   position: absolute;
   top: 25%;
-  right: -12%;
+  right: -11.8%;
   border-radius: 50%;
   height: 0.5rem;
   width: 0.5rem;
@@ -398,9 +398,21 @@ textarea {
   content: "";
   position: absolute;
   top: 25%;
-  left: -8%;
+  left: -7.5%;
   border-radius: 50%;
   height: 0.5rem;
   width: 0.5rem;
   background-color: rgb(168, 167, 167);
+}
+
+/* work box */
+.logo-of-work img {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+}
+
+.logo-of-work h4 {
+  display: inline-block;
+  margin-top: -20%;
 }
