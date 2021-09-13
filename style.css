@@ -48,6 +48,11 @@ body {
 #nav-list li a:hover {
   border-bottom: 1px solid white;
 }
+
+#profile-list li a i:hover {
+  transform: scale(1.3);
+}
+
 /* name and profiles */
 
 #profiles {
