@@ -353,6 +353,8 @@ textarea {
   width: 40%;
   margin: 0.4rem;
   min-height: 150px;
+  min-width: 200px;
+  max-width: 370px;
   position: relative;
   margin-top: 4%;
 }
@@ -380,28 +382,23 @@ textarea {
   font-size: 2rem;
   color: #2857a4;
   transform: rotate(90deg);
+  z-index: 1;
 }
 
-.work-box:nth-child(2n + 1):after {
-  content: "";
+.travler-line .dot1 {
   position: absolute;
-  top: 25%;
-  right: -11.8%;
-  border-radius: 50%;
-  height: 0.5rem;
-  width: 0.5rem;
-  background-color: rgb(168, 167, 167);
+  color: rgb(168, 167, 167);
+  font-size: 0.5rem;
+  top: 0%;
+  right: -3px;
 }
 
-.work-box:nth-child(2n):after {
-  content: "";
+.travler-line .dot2 {
   position: absolute;
-  top: 25%;
-  left: -7.5%;
-  border-radius: 50%;
-  height: 0.5rem;
-  width: 0.5rem;
-  background-color: rgb(168, 167, 167);
+  color: rgb(168, 167, 167);
+  font-size: 0.5rem;
+  top: 100%;
+  right: -3px;
 }
 
 /* work box */
