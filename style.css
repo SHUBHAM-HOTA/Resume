@@ -22,6 +22,7 @@ body {
   list-style: none;
   margin-top: 20px;
   text-align: center;
+  padding: 0;
 }
 
 .nav-list li {
@@ -440,13 +441,49 @@ textarea {
   letter-spacing: 0.04rem;
 }
 
+/* ham menu */
+
+#ham {
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+#menu {
+  position: fixed;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.1s ease-out;
+}
+
+#menu:target {
+  height: 100%;
+  width: 60%;
+  background-image: linear-gradient(#403066, #2857a4);
+  font-size: 2rem;
+  color: black;
+}
+
+#restore {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  color: black;
+}
+#restore a {
+  color: antiquewhite;
+}
+
 @media screen and (max-width: 768px) {
   .travler-line {
-    left: 10%;
+    left: 5%;
   }
   .work-box {
-    left: 25% !important;
-    width: 60%;
+    left: 15% !important;
+    width: 75%;
   }
   #form {
     width: 100%;
@@ -461,5 +498,35 @@ textarea {
   #send {
     max-width: 160px;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  #ham {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    font-size: 2rem;
+  }
+  #ham a {
+    color: #09dffc;
+  }
+
+  #nav {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  #page-header {
+    height: 50vh;
+  }
+  #name {
+    font-size: 2.5rem;
+  }
+  .nav-list i {
+    font-size: 1rem;
+  }
+  .nav-list li {
+    margin: 0;
   }
 }
