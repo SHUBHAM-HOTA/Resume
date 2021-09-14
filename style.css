@@ -301,6 +301,9 @@ section:nth-child(2n) {
   flex-direction: row;
   justify-content: space-around;
 }
+#form form {
+  width: 100%;
+}
 
 #form input,
 textarea {
@@ -322,8 +325,6 @@ textarea {
   font: 1em sans-serif;
   padding: 0.7rem;
   border: 2px solid white;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #address {
@@ -437,4 +438,28 @@ textarea {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.04rem;
+}
+
+@media screen and (max-width: 768px) {
+  .travler-line {
+    left: 10%;
+  }
+  .work-box {
+    left: 25% !important;
+    width: 60%;
+  }
+  #form {
+    width: 100%;
+  }
+  #form form {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  #address {
+    max-width: 70%;
+  }
+  #send {
+    max-width: 160px;
+    margin: auto;
+  }
 }
